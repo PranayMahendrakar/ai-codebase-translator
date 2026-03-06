@@ -1,0 +1,19 @@
+# AI Codebase Translator - Dependencies
+# Core dependencies (most functionality uses stdlib)
+# tree-sitter is optional for production-grade AST parsing
+
+# Optional: tree-sitter based parsers for Java/Go/Rust
+# tree-sitter>=0.21.0
+# tree-sitter-python>=0.21.0
+# tree-sitter-java>=0.21.0
+# tree-sitter-go>=0.21.0
+# tree-sitter-rust>=0.21.0
+
+# Optional: ANTLR4 for alternative grammar-based parsing
+# antlr4-python3-runtime>=4.13.0
+
+# Development / testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+mypy>=1.5.0
